@@ -1,3 +1,7 @@
+<!--This is a freecodecamp.org project that I reconstructed and added my own comments to using clean code practices.
+This is the project that started to help me understand more about accessibility practices 
+and become more familiar with css attributes-->
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -7,9 +11,14 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
+    <!-- Heading -->
     <h1>Registration Form</h1>
+    <!-- Description-->
     <p>Please fill out this form with the required information</p>
+
+    <!-- Registration form with a POST method and action URL -->
     <form method="post" action="https://register-demo.freecodecamp.org">
+      <!-- First fieldset containing personal information -->
       <fieldset>
         <label for="first-name"
           >Enter Your First Name:
@@ -33,6 +42,7 @@
             required
         /></label>
       </fieldset>
+      <!-- Second fieldset containing account type and terms and conditions -->
       <fieldset>
         <label for="personal-account"
           ><input
@@ -66,6 +76,7 @@
           >
         </label>
       </fieldset>
+      <!-- Third fieldset containing profile picture, age, referrer, and bio -->
       <fieldset>
         <label for="profile-picture"
           >Upload a profile picture:
@@ -96,6 +107,7 @@
           ></textarea>
         </label>
       </fieldset>
+      <!-- Submit button to submit the form -->
       <input type="submit" value="Submit" />
     </form>
   </body>

@@ -1,4 +1,4 @@
-body {
+body { /* Sets body element's width to 100% of its parent and height to 100% of the viewport height. Remove any default margin. */
     width: 100%;
     height: 100vh;
     margin: 0;
@@ -9,25 +9,25 @@ body {
   }
   
   h1, p {
-    margin: 1em auto;
-    text-align: center;
+    margin: 1em auto; /* Adds space around 'h1' and 'p' elements and centers them */
+    text-align: center; /*Center aligns the text within the elements */
   }
   
   form {
-    width: 60vw;
-    max-width: 500px;
-    min-width: 300px;
-    margin: 0 auto;
+    width: 60vw; /* Set the form width to 60% of the viewport width. */
+    max-width: 500px; /* limits the width */
+    min-width: 300px; /* limits the width *
+    margin: 0 auto; /* Center-algn the forms within its container */
     padding-bottom: 2em;
   }
   
   fieldset {
-    border: none;
+    border: none; /*removes the default fieldset border */
     padding: 2rem 0;
     border-bottom: 3px solid #3b3b4f;
   }
   
-  fieldset:last-of-type {
+  fieldset:last-of-type { /* removes the bottom border below the bio field */
     border-bottom: none;
   }
   
@@ -46,12 +46,12 @@ body {
   
   input, textarea {
     background-color: #0a0a23;
-    border: 1px solid #0a0a23;
+    border: 1px solid #0a0a23; 
     color: #ffffff;
   }
   
   .inline {
-    width: unset;
+    width: unset; /*removes earlier rule which set all the input elements to width: 100% */
     margin: 0 0.5em 0 0;
     vertical-align: middle;
   }
